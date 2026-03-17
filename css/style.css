@@ -5,6 +5,13 @@ background:white;
 text-align:center;
 }
 
+.producto h2 {
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333;
+}
+
 .inicio{
 height:100vh;
 display:flex;
