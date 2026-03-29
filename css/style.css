@@ -78,3 +78,14 @@ font-size:18px;
 .nosotros-btn{
 margin-bottom:50px;
 }
+
+.tonos-lista {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.tonos-lista li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
