@@ -35,18 +35,21 @@ color:#d88fa3;
 }
 
 .btn{
-display:inline-block;
-padding:12px 25px;
-background:#d88fa3;
-color:white;
-text-decoration:none;
-border-radius:8px;
-margin-top:15px;
-transition:0.3s;
+display: inline-block;
+background: #e6a4b4;
+color: white;
+padding: 10px 18px;
+border-radius: 25px;
+text-decoration: none;
+font-size: 14px;
+transition: 0.3s;
+margin-top: 10px;
+border: none;
 }
 
 .btn:hover{
-background:#c5778f;
+background: #d88fa3;
+transform: scale(1.05);
 }
 
 .productos{
@@ -88,6 +91,31 @@ margin: 10px 0;
 .tonos-lista li {
 margin-bottom: 5px;
 font-size: 14px;
+}
+
+.productos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+padding: 20px;
+}
+
+.producto {
+background: white;
+border-radius: 12px;
+padding: 15px;
+transition: 0.3s;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.producto img {
+width: 100%;
+border-radius: 10px;
+}
+
+.producto:hover {
+transform: translateY(-8px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .productos {
