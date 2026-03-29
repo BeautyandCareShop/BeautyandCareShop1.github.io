@@ -89,3 +89,28 @@ margin: 10px 0;
 margin-bottom: 5px;
 font-size: 14px;
 }
+
+.productos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 25px;
+padding: 20px;
+}
+
+.producto {
+background: white;
+border-radius: 12px;
+padding: 15px;
+transition: 0.3s;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.producto img {
+width: 100%;
+border-radius: 10px;
+}
+
+.producto:hover {
+transform: translateY(-8px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
