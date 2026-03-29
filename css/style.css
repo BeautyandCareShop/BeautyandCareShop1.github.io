@@ -13,16 +13,16 @@ color: #333;
 }
 
 .inicio {
-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+padding: 60px 20px;
 }
 
 .logo {
-width: 750px;
-margin-bottom: 750px;
+width: 4000px;
+margin-bottom: 400px;
 }
 
 h1 {
